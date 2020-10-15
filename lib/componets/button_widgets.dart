@@ -29,6 +29,11 @@ class TDButton extends StatelessWidget {
                     width: 32.0,
                   )
                 : SizedBox(),
+            image != null
+                ? SizedBox(
+                    width: 10.0,
+                  )
+                : SizedBox(),
             Text(
               text,
               style: TextStyle(
